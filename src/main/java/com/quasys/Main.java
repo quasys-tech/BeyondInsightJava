@@ -4,22 +4,22 @@ import org.json.JSONObject;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // System.out.println("Hello world!");
 
 
-        JSONObject secrets = BeyondInsight.getSecrets();
-        System.out.println(secrets);
+        // JSONObject secrets = BeyondInsight.getSecrets();
+        // System.out.println(secrets);
 
 
 
-        while (true) {
-            try {
-                // Her 10 saniyede bir döngü
-                Thread.sleep(10000);
-            } catch (InterruptedException e) {
-                System.out.println("Thread interrupted");
-            }
-        }
+        // while (true) {
+        //     try {
+        //         // Her 10 saniyede bir döngü
+        //         Thread.sleep(10000);
+        //     } catch (InterruptedException e) {
+        //         System.out.println("Thread interrupted");
+        //     }
+        // }
 
 //        System.out.println(secrets.getJSONObject("abdulmelik").getJSONObject("Dev").getJSONObject("hola").getString("Password"));
 //

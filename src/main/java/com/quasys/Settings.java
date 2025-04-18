@@ -25,29 +25,7 @@ public class Settings {
 
 //    public static final String BT_CLIENT_CERTIFICATE_PATH = env.getOrDefault("BT_CLIENT_CERTIFICATE_PATH", null);
 
-    public static final String BT_CLIENT_CERTIFICATE = """
-                                                          -----BEGIN CERTIFICATE-----
-                                                          MIIDSTCCAjGgAwIBAgIEZtA4gTANBgkqhkiG9w0BAQsFADARMQ8wDQYDVQQDDAZR
-                                                          VUFTWVMwHhcNMjQwODI5MDg1OTQ1WhcNMjUwODI5MDg1OTQ1WjARMQ8wDQYDVQQD
-                                                          DAZRVUFTWVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQCSTDbxQV
-                                                          /LRfLaez5lSkeUH2Q6mIBYpUMchwxraRjiAWaSA9gzVJcyrLcTHnprDip7XjwKQf
-                                                          0M+JySBF5C+AnOxXIO8MBzlMvUMfbTNLLalx3FdJy1KY+shB7FJRK6rGtXFF6gWf
-                                                          Vku26nCOpSrjc+9QlVr1kIWFxev5ITSKyqUsNil7JvRhCicFS0uEqLY8srNyLRgR
-                                                          0sDodpPAbd0HUgyJAVyH08vvCiBvohHySu0crit5WPD6IY/1muCB+UeoQUGYmwow
-                                                          JqrtewP5p3OeMv/NrYKdC0YDX67itxBd1djJwQ8ph0ViTYokHeark+P7B4IwcAKF
-                                                          Oc+e8r0Sq6sFAgMBAAGjgagwgaUwCQYDVR0TBAIwADBNBgNVHQEERjBEgCDBoC09
-                                                          iYgw6dq+bZs0LDV8whaFB/eVorGUVOjfxAoDVaEWMBQxEjAQBgNVBAMTCWVFeWVF
-                                                          bXNDQYII38Buh913OFowHQYDVR0OBBYEFEt5hHJWvZApg5C+k/6BR3IFjk93MAsG
-                                                          A1UdDwQEAwIDuDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZI
-                                                          hvcNAQELBQADggEBAJN6bOa0rIRWqlpVu21JB7xNB3XwN5apENGoROS6G8hFYRcr
-                                                          8EL6wglvEG8kyIxyA/6XhQYFDimnNjENg4YgHbkvt7NyRITSHstQ01sOP2P6rNmY
-                                                          JxfrEx07vBUhJDK8rD/0RnxZh7RSVmPJoaTpHV9bxPkUH6V6tcDi7Oo2gB+OFLka
-                                                          Tm1Ni9m0aWlAomKRhof0WGHUr4/i0AkzSAPzusHEzFePF/3+OKYkcAxLlX/C8nN9
-                                                          qRLUhENaFXXKGKTYhYxw8QqgqdV+0q5V5I7R3D5IHx2Anukcz0EzkU5ghnqrncdK
-                                                          7cFyN72R3+ZZ9IoLk2FtC8nPN6yV7YPmKxWbOTs=
-                                                          -----END CERTIFICATE-----""";
-
-//    public static final String BT_CLIENT_CERTIFICATE = env.get("BT_CLIENT_CERTIFICATE");
+    public static final String BT_CLIENT_CERTIFICATE = env.get("BT_CLIENT_CERTIFICATE");
 
 //    public static final String BT_CLIENT_CERTIFICATE_PASSWORD = env.getOrDefault("BT_CLIENT_CERTIFICATE_PASSWORD", "");
 
