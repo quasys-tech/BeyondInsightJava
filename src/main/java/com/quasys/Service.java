@@ -15,7 +15,7 @@ public class Service {
         SSLContext sslContext = Utils.generateSSL();
         HttpClient client = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_1_1)
-//                .connectTimeout(Duration.ofSeconds(10))
+//                .connectTimeout(Duration.ofSeconds(10)) 
                 .sslContext(sslContext)
                 .build();
         return  client;
